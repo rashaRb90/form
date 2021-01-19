@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Hunger Restaurant</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+      
+    </head>
+    <body>
+      <header>
+        <h1>Reasturant app</h1>
+
+
+      </header>
+
+      <section class="dataform">
+
+        <form id="orderForm">
+            <fieldset>
+              <div id="itemName">
+                <label id="q1">What do you want to order ? </label>
+              </div>
+
+                <br>
+                <select name="itemName">
+                  <option value="burger">burger</option>
+                  <option value="pizza">pizza</option>
+                  <option value="salad">salad</option>
+                  <option value="pepsie">pepsie</option>
+                </select>
+              </div>
+             <div id="quantityorder">
+              <br>
+              <label id="q2">quantity</label>
+            </div>
+
+              <br>
+              <input name="quantity" type="number" placeholder="how many items you want to order">
+
+              <div id="buttondiv">
+                <button id="submit" type="submit">Submit </button>
+              </div>
+
+              <h3> Previous Orders</h3>
+
+              <div id="orders">
+  
+  
+              </div>
+
+    
+            </fieldset>
+          </form>
+           
+
+          </section>
+
+          <script src="app.js"></script>
+
+    </body>
+
+</html>
